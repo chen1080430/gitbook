@@ -1,5 +1,7 @@
 # PRIVACY NOTICE
 
+<figure><img src=".gitbook/assets/CleanShot 2023-04-19 at 22.46.14@2x.jpg" alt=""><figcaption></figcaption></figure>
+
 \
 **Last updated April 19, 2023**\
 \
