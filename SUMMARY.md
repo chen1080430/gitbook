@@ -7,3 +7,4 @@
 * [Android Livedata](android-livedata.md)
 * [Android](android.md)
 * [PRIVACY NOTICE](privacy-notice.md)
+* [常用指令](chang-yong-zhi-ling.md)
