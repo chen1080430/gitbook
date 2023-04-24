@@ -20,7 +20,9 @@ description: 紀錄
 
 <figure><img src=".gitbook/assets/CleanShot 2023-04-25 at 01.49.38@2x.jpg" alt=""><figcaption></figcaption></figure>
 
+應該是Google還在審查中，要驗證身份，但流程還在跑，驗證選項裡面還沒有需要填寫的表格，目前空空如也。
 
+<figure><img src=".gitbook/assets/CleanShot 2023-04-25 at 01.55.44@2x.jpg" alt=""><figcaption></figcaption></figure>
 
 
 
