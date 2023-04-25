@@ -24,6 +24,18 @@ description: 紀錄
 
 <figure><img src=".gitbook/assets/CleanShot 2023-04-25 at 01.55.44@2x.jpg" alt=""><figcaption></figcaption></figure>
 
+————————————————————————————————————
+
+下午在看fragment時，嘗試了使用Google  AdMob Fragment來測試廣告，廣告依舊顯示不出來，log顯示應該是帳戶還沒approved，[官網常見問題](https://support.google.com/admob/answer/9905175#1\&zippy=%2C%E5%B8%B3%E6%88%B6%E5%B0%9A%E6%9C%AA%E7%8D%B2%E5%87%86)寫到，通常帳戶創建之後需要24小時以上才會審核完成，繼續等下去．．．
+
+<figure><img src=".gitbook/assets/CleanShot 2023-04-25 at 15.08.30@2x.jpg" alt=""><figcaption></figcaption></figure>
+
+
+
+————————————————————————————————————
+
+
+
 
 
 待續...
