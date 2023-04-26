@@ -34,7 +34,12 @@ description: 紀錄
 
 ————————————————————————————————————
 
+04.26:\
+查看到會crash原因是因為meta-data沒有寫完整，誤以為要把Application\_ID換成自己應用ＩＤ。
 
+<figure><img src=".gitbook/assets/CleanShot 2023-04-27 at 01.07.46@2x.jpg" alt=""><figcaption></figcaption></figure>
+
+目前已可以成功顯示測試廣告。
 
 
 
