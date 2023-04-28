@@ -1,5 +1,7 @@
 # Android
 
+Android 設計架構 MVC MVP MVVM: [https://ithelp.ithome.com.tw/articles/10218263](https://ithelp.ithome.com.tw/articles/10218263)
+
 Flow
 
 collection
