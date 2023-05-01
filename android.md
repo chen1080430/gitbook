@@ -2,9 +2,7 @@
 
 Android 設計架構 MVC MVP MVVM: [https://ithelp.ithome.com.tw/articles/10218263](https://ithelp.ithome.com.tw/articles/10218263)
 
-Flow
-
-collection
+Collection
 
 Restful
 
@@ -20,7 +18,13 @@ google ads
 
 Kotlin pager3
 
-coroutine
+**Coroutine**
 
 JUnit4 for kotlin - MockK
+
+Dependency injection
+
+WeakReference
+
+BQ
 
