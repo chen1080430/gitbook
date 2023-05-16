@@ -12,5 +12,6 @@
 
 ## Android
 
+* [Data binding](android-1/data-binding.md)
 * [Android Livedata](android-1/android-livedata.md)
 * [Unit Test](android-1/unit-test.md)
