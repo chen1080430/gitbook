@@ -6,23 +6,31 @@
 
 ### Job: launch / async 子工作
 
-launch : 執行並發的程式區塊
+launch : 執行並發(非阻塞線程)的程式區塊
 
-async : 同launch，執行並發的程式區塊，但可以記錄下結果( Deferred\<T> )，為job物件，並透過.await讀取執行結果。
+async : 同launch，執行並發(非阻塞線程)的程式區塊，但可以記錄下結果( Deferred\<T> )，為job物件，並透過.await讀取執行結果。
 
 
 
 ### coroutineScope
 
-runBlocking: coroutine執行為同步的區塊。
+runBlocking: coroutine執行為同步(阻塞線程)的區塊。
 
-coroutineScope(): 同 runBlocking 內部可以執行launch / async進行并發，但外部看到coroutineScope()會是同步運行的狀態。
+coroutineScope(): 同 runBlocking 內部可以執行launch / async進行並發(阻塞線程)，但外部看到coroutineScope()會是同步運行的狀態。
 
 coroutineScope與生命週期連結，如果生命週期遭取消，coroutineScope也會一並取消。
 
 coroutine例外狀況終止：oroutine的job有父子關係，子項的job如果遭到例外狀況終止，也會向上延伸到父項、父項的父項。
 
 coroutine取消：如果是子項遭取消，則父項不受影響。如果是父項取消，子項也會跟著取消。
+
+
+
+阻塞＆非阻塞：
+
+阻塞現成會卡住當前線程，如果在Main thread，則會有ANR的問題，但優點可以讓原先網路及資料庫等耗時操作可以做成流水型操作，不用聽取callback做反應。阻塞線程更為簡潔易讀，流水型的程式區塊更容易閱讀。
+
+非阻塞線程(並發)則是可以同時運行多個線程，如果同時要從多個網路資源或是資料庫讀取資料，透過這種方式就不會互相卡到執行緒，尤其是用戶界面可以保持流暢且對用戶的操作保持即時響應。並且，非同步任務，可以提高應用程式的性能和響應性。
 
 
 
@@ -53,3 +61,8 @@ withContext(調度程式): 透過withContext可以調度到不同的執行緒上
 
 
 `suspend` 修飾符用於標示稍後可以暫停並繼續執行的函式。
+
+
+
+## [在 Android 应用中使用 Kotlin 协程](https://developer.android.com/codelabs/kotlin-coroutines?hl=zh-cn) (重構BACKGROUND方式，避免使用callback，調整成blocking)
+
