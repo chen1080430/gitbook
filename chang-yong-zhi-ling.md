@@ -12,3 +12,15 @@ $ pwd&#x20;
 
 
 
+
+
+Adb 無限debug:
+
+adb -s \[設備代號] shell ifconfig
+
+adb -s \[設備代號] tcpip 5555
+
+adb connect tcpip:5555
+
+結束：adb disconnect tcpip:5555
+
