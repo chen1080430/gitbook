@@ -24,6 +24,8 @@ coroutine例外狀況終止：oroutine的job有父子關係，子項的job如果
 
 coroutine取消：如果是子項遭取消，則父項不受影響。如果是父項取消，子項也會跟著取消。
 
+runBlockingTest： coroutine執行為同步(阻塞線程)的區塊，僅限在應用測試中使用。
+
 
 
 阻塞＆非阻塞：
