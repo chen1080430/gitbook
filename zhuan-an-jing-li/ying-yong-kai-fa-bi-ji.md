@@ -26,7 +26,7 @@ GuessNumber 是一個由作者在閒暇時間開發的小程式，主要用於�
 
 {% embed url="https://play.google.com/store/apps/details?id=com.mason.myapplication" %}
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -43,7 +43,7 @@ MessageSync 是一個簡訊同步應用，讓使用者可以即時將收到的�
 
 {% embed url="https://play.google.com/store/apps/details?id=com.mason.messagesynchttps://play.google.com/store/apps/details?id=com.mason.messagesync" %}
 
-<figure><img src=".gitbook/assets/CleanShot 2023-06-02 at 18.17.10 2@2x.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/CleanShot 2023-06-02 at 18.17.10 2@2x.jpg" alt=""><figcaption></figcaption></figure>
 
 ###
 
