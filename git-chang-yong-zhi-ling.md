@@ -18,3 +18,7 @@ $ git remote -vv
 
 
 
+### tig : git 的文字介面
+
+[https://ithelp.ithome.com.tw/articles/10275047](https://ithelp.ithome.com.tw/articles/10275047)
+
