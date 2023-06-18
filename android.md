@@ -26,7 +26,9 @@ Dependency injection
 
 WeakReference
 
-BQ
-
 Android MAD
+
+Android Material Design - motion animator
+
+Glide
 
